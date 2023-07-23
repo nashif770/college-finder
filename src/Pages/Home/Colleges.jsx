@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Heading from "../../Components/Heading";
 
 const Colleges = () => {
   const [colleges, setColleges] = useState("");
@@ -13,27 +14,58 @@ const Colleges = () => {
   console.log("Hey", colleges);
 
   return (
-    <div className="grid grid-cols-3 gap-6 p-12">
-      {allColleges?.map((college) => (
-        <div className="card w-96 bg-base-100 shadow-xl">
-          <figure>
-            <img src={college.image} alt="Shoes" />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">{college.name}</h2>
-            <p>{college?.description}</p>
-            <p className="font-bold">Admission Deadlines:</p>
-            <ul className="w-3/4">
-                <li className="flex justify-between"><span>Fall</span>    <span>{college?.admissionProcess.deadlines.fall}</span></li>
-                <li className="flex justify-between"><span>Spring</span>  <span>{college?.admissionProcess.deadlines.spring}</span></li>
-                <li className="flex justify-between"><span>Summer</span>  <span>{college?.admissionProcess.deadlines.summer}</span></li>
-            </ul>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Details</button>
+    <div>
+        <Heading title={"Checkout Our Best Colleges"}></Heading>
+      <div className="grid grid-cols-3 gap-6 p-12">
+        {allColleges?.map((college) => (
+          <div className="card w-96 text-center bg-[#72808A] text-black">
+            <figure>
+              <img src={college.image} alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title m-auto h-16 font-bold">{college.name}</h2>
+              <p className="my-1">{college?.description}</p>
+              <div>
+                <p className="font-bold my-1">Admission Deadlines:</p>
+                <ul className="">
+                  <li className="flex justify-between">
+                    <span>Fall</span>
+                    <span>{college?.admissionProcess.deadlines.fall}</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>Spring</span>
+                    <span>{college?.admissionProcess.deadlines.spring}</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>Summer</span>
+                    <span>{college?.admissionProcess.deadlines.summer}</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <p className="font-bold my-1">Events:</p>
+                <ul>
+                  <li className="flex justify-between">
+                    <span>{college?.events[0].title}</span>{" "}
+                    <span>{college?.events[0].date}</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{college?.events[1].title}</span>{" "}
+                    <span>{college?.events[1].date}</span>
+                  </li>
+                  <li className="flex justify-between">
+                    <span>{college?.events[2].title}</span>{" "}
+                    <span>{college?.events[2].date}</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary w-full mt-6">Details</button>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
