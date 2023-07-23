@@ -1,0 +1,430 @@
+{
+  "colleges": [
+    {
+      "college_id": 1,
+      "name": "Harvard University",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "Cambridge, Massachusetts, USA",
+      "website": "https://www.harvard.edu/",
+      "description": "Harvard University is a prestigious Ivy League research university known for its excellence in education and groundbreaking research.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Sept 1 - Oct 15",
+          "spring": "Jan 1 - Feb 15",
+          "summer": "May 1 - Jun 15"
+        }
+      },
+      "events": [
+        {
+          "title": "Welcome Day",
+          "date": "August 30, 2023",
+          "description": "Orientation for new students."
+        },
+        {
+          "title": "Research Symposium",
+          "date": "November 10, 2023",
+          "description": "Showcasing cutting-edge research across disciplines."
+        },
+        {
+          "title": "Career Fair",
+          "date": "March 5, 2024",
+          "description": "Connect with potential employers and internships."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Advancements in Biotechnology",
+          "area": "Life Sciences",
+          "description": "Pioneering research in genetic engineering and biomedicine."
+        },
+        {
+          "title": "Sustainable Energy Solutions",
+          "area": "Engineering",
+          "description": "Innovations in renewable energy technologies."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Football", "Basketball", "Rowing", "Track and Field"],
+            "homeStadium": "Harvard Stadium",
+            "championships": {
+              "football": 10,
+              "basketball": 8,
+              "rowing": 5,
+              "trackAndField": 12
+            }
+          },
+          {
+            "name": "Club Sports",
+            "teams": ["Soccer", "Tennis", "Volleyball", "Swimming"],
+            "description": "Wide range of sports for recreational and competitive play."
+          }
+        ]
+      }
+    },
+    {
+      "college_id": 2,
+      "name": "Stanford University",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "Stanford, California, USA",
+      "website": "https://www.stanford.edu/",
+      "description": "Stanford University is a world-renowned research institution located in the heart of Silicon Valley.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Oct 1 - Nov 30",
+          "spring": "Jan 15 - Mar 15",
+          "summer": "Apr 15 - Jun 30"
+        }
+      },
+      "events": [
+        {
+          "title": "Admit Weekend",
+          "date": "April 20, 2023",
+          "description": "A weekend for admitted students to explore campus life."
+        },
+        {
+          "title": "Innovation Fair",
+          "date": "October 5, 2023",
+          "description": "Showcasing the latest innovations from students and faculty."
+        },
+        {
+          "title": "Graduation Day",
+          "date": "June 15, 2024",
+          "description": "Commencement ceremony for graduating students."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Artificial Intelligence Advancements",
+          "area": "Computer Science",
+          "description": "Leading research in AI and machine learning."
+        },
+        {
+          "title": "Cancer Immunotherapy",
+          "area": "Medicine",
+          "description": "Revolutionary treatments for cancer using immunology."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Football", "Basketball", "Volleyball", "Swimming"],
+            "homeStadium": "Stanford Stadium",
+            "championships": {
+              "football": 5,
+              "basketball": 3,
+              "volleyball": 2,
+              "swimming": 10
+            }
+          },
+          {
+            "name": "Intramural Sports",
+            "teams": ["Soccer", "Ultimate Frisbee", "Tennis", "Softball"],
+            "description": "Compete with fellow students in friendly intramural leagues."
+          }
+        ]
+      }
+    },
+    {
+      "college_id": 3,
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "Cambridge, Massachusetts, USA",
+      "website": "https://www.mit.edu/",
+      "description": "MIT is a world-leading institution in science, engineering, and technology.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Aug 15 - Sep 30",
+          "spring": "Dec 1 - Jan 31",
+          "summer": "Apr 1 - May 31"
+        }
+      },
+      "events": [
+        {
+          "title": "Tech Expo",
+          "date": "September 10, 2023",
+          "description": "Exhibition of innovative projects and technologies."
+        },
+        {
+          "title": "Hackathon",
+          "date": "October 25, 2023",
+          "description": "24-hour coding competition for students."
+        },
+        {
+          "title": "MIT Day",
+          "date": "March 1, 2024",
+          "description": "Celebrating MIT's founding and achievements."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Space Exploration Breakthroughs",
+          "area": "Aerospace",
+          "description": "Advancing space travel and satellite technology."
+        },
+        {
+          "title": "Quantum Computing",
+          "area": "Physics",
+          "description": "Research in the field of quantum information processing."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Cross Country", "Tennis", "Fencing", "Swimming"],
+            "homeStadium": "MIT Athletic Center",
+            "championships": {
+              "crossCountry": 6,
+              "tennis": 4,
+              "fencing": 9,
+              "swimming": 11
+            }
+          },
+          {
+            "name": "Club Sports",
+            "teams": ["Soccer", "Ultimate Frisbee", "Table Tennis", "Volleyball"],
+            "description": "Student-run clubs for various sports and activities."
+          }
+        ]
+      }
+    },
+    {
+      "college_id": 4,
+      "name": "Yale University",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "New Haven, Connecticut, USA",
+      "website": "https://www.yale.edu/",
+      "description": "Yale University is a renowned Ivy League institution with a rich history of academic excellence.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Sept 1 - Oct 31",
+          "spring": "Jan 15 - Feb 28",
+          "summer": "May 1 - Jun 30"
+        }
+      },
+      "events": [
+        {
+          "title": "Campus Tour",
+          "date": "September 15, 2023",
+          "description": "Guided tour of the Yale campus for prospective students."
+        },
+        {
+          "title": "Yale Day",
+          "date": "October 20, 2023",
+          "description": "Showcasing Yale's diverse community and programs."
+        },
+        {
+          "title": "Global Week",
+          "date": "April 1, 2024",
+          "description": "Celebrating Yale's global initiatives and partnerships."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Art Conservation and Restoration",
+          "area": "Arts",
+          "description": "Preservation of historical artworks and artifacts."
+        },
+        {
+          "title": "Environmental Policy Studies",
+          "area": "Environmental Studies",
+          "description": "Research on sustainable development and climate change."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Baseball", "Squash", "Golf", "Sailing"],
+            "homeStadium": "Yale Field",
+            "championships": {
+              "baseball": 3,
+              "squash": 7,
+              "golf": 2,
+              "sailing": 6
+            }
+          },
+          {
+            "name": "Intramural Sports",
+            "teams": ["Soccer", "Tennis", "Basketball", "Ultimate Frisbee"],
+            "description": "Intramural leagues for friendly competition among students."
+          }
+        ]
+      }
+    },
+    {
+      "college_id": 5,
+      "name": "Princeton University",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "Princeton, New Jersey, USA",
+      "website": "https://www.princeton.edu/",
+      "description": "Princeton University is an Ivy League institution known for its strong emphasis on undergraduate education and research.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Aug 15 - Oct 1",
+          "spring": "Dec 1 - Feb 1",
+          "summer": "Apr 1 - May 15"
+        }
+      },
+      "events": [
+        {
+          "title": "Princeton Preview",
+          "date": "April 5, 2023",
+          "description": "Open house event for admitted students and their families."
+        },
+        {
+          "title": "Research Conference",
+          "date": "November 15, 2023",
+          "description": "Showcasing academic research and projects."
+        },
+        {
+          "title": "Community Day",
+          "date": "March 20, 2024",
+          "description": "Engaging with the local community through various activities."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Number Theory and Mathematics",
+          "area": "Mathematics",
+          "description": "Exploring abstract mathematical concepts."
+        },
+        {
+          "title": "Literary Studies and Analysis",
+          "area": "English Literature",
+          "description": "In-depth analysis of literary works and cultural impact."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Hockey", "Water Polo", "Track and Field", "Lacrosse"],
+            "homeStadium": "Princeton Stadium",
+            "championships": {
+              "hockey": 4,
+              "waterPolo": 6,
+              "trackAndField": 8,
+              "lacrosse": 5
+            }
+          },
+          {
+            "name": "Club Sports",
+            "teams": ["Soccer", "Ultimate Frisbee", "Tennis", "Swimming"],
+            "description": "Opportunities for students to engage in various sports."
+          }
+        ]
+      }
+    },
+    {
+      "college_id": 6,
+      "name": "California Institute of Technology (Caltech)",
+      "image": "https://i.ibb.co/tbk3XDk/Banner4.jpg",
+      "location": "Pasadena, California, USA",
+      "website": "https://www.caltech.edu/",
+      "description": "Caltech is a world-renowned science and engineering institute with a focus on cutting-edge research.",
+      "admissionProcess": {
+        "requirements": [
+          "High School Transcripts",
+          "Standardized Test Scores (SAT/ACT)",
+          "Letters of Recommendation",
+          "Personal Statement/Essay",
+          "Extracurricular Activities"
+        ],
+        "deadlines": {
+          "fall": "Sept 1 - Oct 31",
+          "spring": "Jan 1 - Feb 28",
+          "summer": "May 1 - Jun 30"
+        }
+      },
+      "events": [
+        {
+          "title": "Caltech Day",
+          "date": "September 5, 2023",
+          "description": "Celebrating Caltech's community and achievements."
+        },
+        {
+          "title": "Science Fair",
+          "date": "October 10, 2023",
+          "description": "Showcasing scientific projects and innovations."
+        },
+        {
+          "title": "Alumni Reunion",
+          "date": "April 15, 2024",
+          "description": "Bringing together alumni from around the world."
+        }
+      ],
+      "researchWorks": [
+        {
+          "title": "Quantum Mechanics and Quantum Computing",
+          "area": "Physics",
+          "description": "Exploring the principles of quantum mechanics for computing applications."
+        },
+        {
+          "title": "Sustainable Energy Research",
+          "area": "Chemical Engineering",
+          "description": "Developing clean and renewable energy technologies."
+        }
+      ],
+      "sports": {
+        "categories": [
+          {
+            "name": "Varsity Athletics",
+            "teams": ["Soccer", "Swimming", "Table Tennis", "Badminton"],
+            "homeStadium": "Caltech Arena",
+            "championships": {
+              "soccer": 3,
+              "swimming": 9,
+              "tableTennis": 5,
+              "badminton": 4
+            }
+          },
+          {
+            "name": "Intramural Sports",
+            "teams": ["Volleyball", "Basketball", "Ultimate Frisbee", "Tennis"],
+            "description": "Intramural leagues for friendly competition among students."
+          }
+        ]
+      }
+    }
+  ]
+}
