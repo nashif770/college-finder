@@ -7,19 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import useReviews from "../../Hooks/useReviews";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
-  useEffect(() => {
-    fetch("reviews.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
 
-  const allReviews = reviews.reviews;
-
-  console.log("rev", allReviews);
-
+  const [allReviews] = useReviews();
+  console.log(allReviews)
   return (
     <div className="max-w-screen-2xl mx-auto my-32 text-black p-6">
       <Swiper

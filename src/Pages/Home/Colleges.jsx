@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Heading from "../../Components/Heading";
+import useColleges from "../../Hooks/useColleges";
 
 const Colleges = () => {
-  const [colleges, setColleges] = useState("");
-  useEffect(() => {
-    fetch("colleges.json")
-      .then((res) => res.json())
-      .then((data) => setColleges(data));
-  }, []);
 
-  const allColleges = colleges.colleges;
-
-  console.log("Hey", colleges);
+  const [allColleges] = useColleges();
 
   return (
     <div>
