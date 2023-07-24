@@ -21,7 +21,7 @@ const SearchCollege = () => {
   );
 
   return (
-    <div className="p-2 min-h-screen bg-[url('https://i.ibb.co/nRDfBFQ/Banner2.jpg')] bg-cover text-black">
+    <div className="p-2 min-h-screen bg-[url('https://i.ibb.co/kBkxFcQ/education-day-arrangement-table-with-copy-space.jpg')] bg-cover text-black">
       <Heading title={"Find Your Path to Higher Education"}></Heading>
       <div className="flex justify-center align-middle mt-6">
         <div className="">

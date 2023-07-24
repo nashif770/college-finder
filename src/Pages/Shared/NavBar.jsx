@@ -11,16 +11,16 @@ const NavBar = () => {
   const nav = (
     <>
       <li>
-        <a>Home</a>
+        <Link to={"/"}>Home</Link>
       </li>
       <li>
-        <a>College</a>
+        <Link to={"/colleges"}>Colleges</Link>
       </li>
       <li>
-        <a>Admission</a>
+        <Link to={"/colleges"}>Admission</Link>
       </li>
       <li>
-        <a>My College</a>
+        <Link to={"/colleges"}>My College</Link>
       </li>
     </>
   );

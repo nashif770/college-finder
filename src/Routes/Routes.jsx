@@ -5,6 +5,8 @@ import Login from "../Pages/Login&Registration/Login";
 import Registration from "../Pages/Login&Registration/Registration";
 import UserProfile from "../Pages/UserProfile/UserProfile";
 import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
+import Colleges from "../Pages/Home/Colleges";
+import AllColleges from "../Pages/Colleges/AllColleges";
 
 export const router = createBrowserRouter([
   {
@@ -31,7 +33,11 @@ export const router = createBrowserRouter([
         path: "collegeDetail/:college_id",
         element: <CollegeDetails></CollegeDetails>,
         loader: ({params}) =>fetch(`https://college-finder-server.vercel.app/${params.college_id}`)
-      }
+      },
+      {
+        path: "colleges",
+        element: <AllColleges></AllColleges>,
+      },
     ],
   },
 ]);
