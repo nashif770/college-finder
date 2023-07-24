@@ -10,7 +10,7 @@ const ImageGallary = () => {
         <Heading title={"Check Our Gallery"}></Heading>
       <div className="grid grid-cols-3 gap-6 p-12">
         {colleges?.map((college) => (
-          <div className="card w-96 bg-base-100 ">
+          <div key={college.college_id} className="card w-96 bg-base-100 ">
             <img src={college.image} alt="Shoes" />
           </div>
         ))}

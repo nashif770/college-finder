@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Heading from "../../Components/Heading";
 import useThreeColleges from "../../Hooks/useThreeColleges";
+import { Link } from "react-router-dom";
 
 const Colleges = () => {
 
@@ -53,7 +54,9 @@ const Colleges = () => {
                 </ul>
               </div>
               <div className="card-actions justify-end">
+                <Link to={`collegeDetail/${college.college_id}`}>
                 <button className="btn btn-primary w-full mt-6">Details</button>
+                </Link>
               </div>
             </div>
           </div>

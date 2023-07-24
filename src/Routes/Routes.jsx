@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login&Registration/Login";
 import Registration from "../Pages/Login&Registration/Registration";
 import UserProfile from "../Pages/UserProfile/UserProfile";
+import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ export const router = createBrowserRouter([
         path: "userProfile",
         element: <UserProfile></UserProfile>,
       },
+      {
+        path: "collegeDetail/:college_id",
+        element: <CollegeDetails></CollegeDetails>,
+        loader: ({params}) =>fetch(`http://localhost:5000/collegeDetail/${params.college_id}`)
+      }
     ],
   },
 ]);

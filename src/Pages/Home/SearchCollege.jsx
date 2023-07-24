@@ -10,7 +10,7 @@ const SearchCollege = () => {
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
-  console.log(query);
+  
   const filteredCollege = data.filter((data) =>
     data.toLowerCase().includes(query.toLowerCase())
   );
