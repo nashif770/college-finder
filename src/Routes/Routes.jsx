@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
       {
         path: "collegeDetail/:college_id",
         element: <CollegeDetails></CollegeDetails>,
-        loader: ({params}) =>fetch(`http://localhost:5000/collegeDetail/${params.college_id}`)
+        loader: ({params}) =>fetch(`https://college-finder-server.vercel.app/${params.college_id}`)
       }
     ],
   },

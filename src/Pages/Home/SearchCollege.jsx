@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Heading from "../../Components/Heading";
 import useColleges from "../../Hooks/useColleges";
+import { Link } from "react-router-dom";
 
 const SearchCollege = () => {
   const [colleges] = useColleges();
@@ -102,9 +103,9 @@ const SearchCollege = () => {
                   </li>
                 </ul>
               </div>
-              <div className="card-actions justify-end">
+              <Link to={`collegeDetail/${searchedCollege?.college_id}`}>
                 <button className="btn btn-primary w-full mt-6">Details</button>
-              </div>
+                </Link>
             </div>
           </div>
         </div>

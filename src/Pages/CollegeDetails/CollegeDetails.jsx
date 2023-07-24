@@ -15,7 +15,7 @@ const CollegeDetails = () => {
 
   return (
     <div className="text-black m-6">
-      <h1 className="text-4xl text-center">{selectedCollege?.name}</h1>
+      <h1 className="text-4xl text-center font-bold mb-6">{selectedCollege?.name}</h1>
       <img className="m-auto mb-3" src={selectedCollege?.image} alt="" />
       <p className="text-center font-bold">{selectedCollege?.location}</p>
       <p className="mb-3 text-center">{selectedCollege?.description}</p>
