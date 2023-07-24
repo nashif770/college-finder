@@ -20,7 +20,7 @@ const NavBar = () => {
         <Link to={"/collegeAdmission"}>Admission</Link>
       </li>
       <li>
-        <Link to={"/colleges"}>My College</Link>
+        <Link to={"/myColleges"}>My College</Link>
       </li>
     </>
   );

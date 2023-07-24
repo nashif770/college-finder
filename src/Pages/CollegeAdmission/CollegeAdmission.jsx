@@ -11,7 +11,6 @@ const CollegeAdmission = () => {
       <div className="p-6">
         {colleges?.map((college) => (
           <Link to={`/admissionSubmit/${college?.college_id}`}>
-            {console.log("how how", college?.college_id)}
             <div className="bg-blue-300 m-6 p-6 text-center rounded-full">
               <h3 className="text-2xl">{college?.name}</h3>
             </div>

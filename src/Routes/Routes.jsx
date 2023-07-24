@@ -9,6 +9,7 @@ import Colleges from "../Pages/Home/Colleges";
 import AllColleges from "../Pages/Colleges/AllColleges";
 import CollegeAdmission from "../Pages/CollegeAdmission/CollegeAdmission";
 import CollegeAdmissionField from "../Pages/CollegeAdmission/CollegeAdmissionField";
+import MyColleges from "../Pages/MyColleges/MyColleges";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ export const router = createBrowserRouter([
         path: "admissionSubmit/:id",
         element: <CollegeAdmissionField></CollegeAdmissionField>,
         loader: ({params}) =>fetch(`https://college-finder-server-nashif770.vercel.app/admissionSubmit/${params.id}`)
+      },
+      {
+        path: "myColleges",
+        element: <MyColleges></MyColleges>
       },
     ],
   },

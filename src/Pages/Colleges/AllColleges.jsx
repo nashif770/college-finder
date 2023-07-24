@@ -57,7 +57,7 @@ const AllColleges = () => {
                 </ul>
               </div>
               <div className="card-actions justify-end">
-                <Link to={`collegeDetail/${college.college_id}`}>
+                <Link to={`/collegeDetail/${college.college_id}`}>
                   <button className="btn btn-primary w-full mt-6">
                     Details
                   </button>

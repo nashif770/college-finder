@@ -8,9 +8,7 @@ import useAxiosSecure from "../../Hooks/useAxiosSecure";
 const CollegeAdmissionField = () => {
   const { user } = useContext(AuthContext);
   const { id } = useParams();
-
   const [axiosSecure] = useAxiosSecure();
-
   const [colleges] = useColleges();
 
   const selectedCollege = colleges?.find(
@@ -32,7 +30,6 @@ const CollegeAdmissionField = () => {
       email: email,
       submittedCollege: submittedCollege,
     };
-    console.log(collegeSubmission);
 
     axiosSecure.post("/mySubmission", collegeSubmission).then((res) => {
       console.log(res);
