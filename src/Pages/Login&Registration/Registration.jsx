@@ -19,8 +19,6 @@ const Registration = () => {
     event.preventDefault();
     createUser(data.email, data.password).then((result) => {
       const user = result.user;
-      console.log("jh");
-      console.log("info",data.name, data.photoUrl)
       profileUpdate(data.name, data.photoUrl)
       .then(() => {
         console.log("updated")

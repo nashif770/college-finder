@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import Heading from "../../Components/Heading";
-import useColleges from "../../Hooks/useColleges";
+import useThreeColleges from "../../Hooks/useThreeColleges";
 
 const Colleges = () => {
 
-  const [allColleges] = useColleges();
+  const [colleges] = useThreeColleges();
 
   return (
     <div>
         <Heading title={"Checkout Our Best Colleges"}></Heading>
       <div className="grid grid-cols-3 gap-6 p-12">
-        {allColleges?.map((college) => (
-          <div className="card w-96 text-center bg-[#72808A] text-black">
+        {colleges?.map((college) => (
+          <div key={college.college_id} className="card w-96 text-center bg-[#72808A] text-black">
             <figure>
               <img src={college.image} alt="Shoes" />
             </figure>

@@ -1,64 +1,62 @@
-{
-  "reviews": [
-    {
-      "review_id": 1,
-      "author": "Sarah123",
-      "rating": 4.5,
-      "comment": "This website made finding the perfect college so much easier! The information is comprehensive and helpful."
-    },
-    {
-      "review_id": 2,
-      "author": "CollegeHunter",
-      "rating": 5.0,
-      "comment": "I wish I had found this website earlier. It's a great tool for college research and saved me a lot of time."
-    },
-    {
-      "review_id": 3,
-      "author": "FutureGrad",
-      "rating": 4.8,
-      "comment": "The college comparison feature is fantastic. It allowed me to weigh the pros and cons of different colleges easily."
-    },
-    {
-      "review_id": 4,
-      "author": "Dreamer12",
-      "rating": 4.2,
-      "comment": "The detailed admission process information helped me prepare my applications with confidence."
-    },
-    {
-      "review_id": 5,
-      "author": "CampusExplorer",
-      "rating": 4.7,
-      "comment": "I appreciate the inclusion of campus images. It gives a real feel of the colleges before visiting."
-    },
-    {
-      "review_id": 6,
-      "author": "InquisitiveMind",
-      "rating": 4.6,
-      "comment": "The events and research details section is a unique and valuable addition. It gives insights beyond academics."
-    },
-    {
-      "review_id": 7,
-      "author": "CollegeBound",
-      "rating": 5.0,
-      "comment": "I found my dream college through this website. Thank you for helping me with my college journey!"
-    },
-    {
-      "review_id": 8,
-      "author": "CuriousStudent",
-      "rating": 4.9,
-      "comment": "As an international student, the website's international admissions section was a great resource for me."
-    },
-    {
-      "review_id": 9,
-      "author": "FutureScholar",
-      "rating": 4.4,
-      "comment": "The sports categories section is impressive. It allowed me to explore colleges based on my athletic interests."
-    },
-    {
-      "review_id": 10,
-      "author": "KnowledgeSeeker",
-      "rating": 4.8,
-      "comment": "I recommend this website to any student looking for colleges. It's user-friendly and informative."
-    }
-  ]
-}
+[
+  {
+    "review_id": 1,
+    "author": "Sarah123",
+    "rating": 4.5,
+    "comment": "This website made finding the perfect college so much easier! The information is comprehensive and helpful."
+  },
+  {
+    "review_id": 2,
+    "author": "CollegeHunter",
+    "rating": 5.0,
+    "comment": "I wish I had found this website earlier. It's a great tool for college research and saved me a lot of time."
+  },
+  {
+    "review_id": 3,
+    "author": "FutureGrad",
+    "rating": 4.8,
+    "comment": "The college comparison feature is fantastic. It allowed me to weigh the pros and cons of different colleges easily."
+  },
+  {
+    "review_id": 4,
+    "author": "Dreamer12",
+    "rating": 4.2,
+    "comment": "The detailed admission process information helped me prepare my applications with confidence."
+  },
+  {
+    "review_id": 5,
+    "author": "CampusExplorer",
+    "rating": 4.7,
+    "comment": "I appreciate the inclusion of campus images. It gives a real feel of the colleges before visiting."
+  },
+  {
+    "review_id": 6,
+    "author": "InquisitiveMind",
+    "rating": 4.6,
+    "comment": "The events and research details section is a unique and valuable addition. It gives insights beyond academics."
+  },
+  {
+    "review_id": 7,
+    "author": "CollegeBound",
+    "rating": 5.0,
+    "comment": "I found my dream college through this website. Thank you for helping me with my college journey!"
+  },
+  {
+    "review_id": 8,
+    "author": "CuriousStudent",
+    "rating": 4.9,
+    "comment": "As an international student, the website's international admissions section was a great resource for me."
+  },
+  {
+    "review_id": 9,
+    "author": "FutureScholar",
+    "rating": 4.4,
+    "comment": "The sports categories section is impressive. It allowed me to explore colleges based on my athletic interests."
+  },
+  {
+    "review_id": 10,
+    "author": "KnowledgeSeeker",
+    "rating": 4.8,
+    "comment": "I recommend this website to any student looking for colleges. It's user-friendly and informative."
+  }
+]
