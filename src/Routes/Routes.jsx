@@ -34,7 +34,7 @@ export const router = createBrowserRouter([
       {
         path: "collegeDetail/:college_id",
         element: <CollegeDetails></CollegeDetails>,
-        loader: ({params}) =>fetch(`https://college-finder-server.vercel.app/${params.college_id}`)
+        loader: ({params}) =>fetch(`https://college-finder-server-nashif770.vercel.app/collegeDetail/${params.college_id}`)
       },
       {
         path: "colleges",
@@ -47,7 +47,7 @@ export const router = createBrowserRouter([
       {
         path: "admissionSubmit/:id",
         element: <CollegeAdmissionField></CollegeAdmissionField>,
-        loader: ({params}) =>fetch(`https://college-finder-server.vercel.app/${params.id}`)
+        loader: ({params}) =>fetch(`https://college-finder-server-nashif770.vercel.app/admissionSubmit/${params.id}`)
       },
     ],
   },
